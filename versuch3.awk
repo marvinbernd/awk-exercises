@@ -1,6 +1,6 @@
 # wir wollen aus der beispieldatei.csv "Score" ausgeben,
 # unabhängig in welcher Spalte er steht
-# gawk -f versuch1.awk -i beispieldatei.csv
+# gawk -f versuch3.awk beispieldatei.csv
 
 # sagt dem Programm das das Trennzeichen "Tab" ist
 BEGIN { FS = "\t" }
